@@ -1,0 +1,33 @@
+﻿2017/05/26 15:08:41 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "H:\WinFiles\Documents\Visual Studio 2013\Projects\Project4\Project4\Project4.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\inc" /I"\\pentas-fs\home\ugrad\15\s1511366\WinFiles\Documents\opencv\build\include" /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt ..\KinectControl.cpp ..\main.cpp
+         KinectControl.cpp
+     1>..\KinectControl.cpp(92): warning C4244: '=' : 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(96): warning C4244: '=' : 'double' から 'FLOAT' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(173): warning C4244: '=' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(174): warning C4244: '=' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(175): warning C4244: '=' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(176): warning C4244: '=' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(178): warning C4244: '引数' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(179): warning C4244: '引数' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(180): warning C4244: '引数' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(181): warning C4244: '引数' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(183): warning C4244: '=' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(184): warning C4244: '=' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(185): warning C4244: '=' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+     1>..\KinectControl.cpp(186): warning C4244: '=' : 'FLOAT' から 'int' への変換です。データが失われる可能性があります。
+         コードを生成中...
+     1>h:\winfiles\documents\visual studio 2013\projects\project4\kinectcontrol.h(14): warning C4715: 'ERROR_CHECK' : 値を返さないコントロール パスがあります。
+         コンパイル中...
+         main.cpp
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\WinFiles\Documents\Visual Studio 2013\Projects\Project4\x64\Debug\Project4.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Lib\amd64" /LIBPATH:H:\WinFiles\Documents\opencv\build\x64\vc12\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\amd64" opencv_core2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_objdetect2410d.lib Kinect10.lib FaceTrackLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\WinFiles\Documents\Visual Studio 2013\Projects\Project4\x64\Debug\Project4.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\WinFiles\Documents\Visual Studio 2013\Projects\Project4\x64\Debug\Project4.lib" /MACHINE:X64 x64\Debug\KinectControl.obj
+         x64\Debug\main.obj
+         Project4.vcxproj -> H:\WinFiles\Documents\Visual Studio 2013\Projects\Project4\x64\Debug\Project4.exe
+     1>プロジェクト "H:\WinFiles\Documents\Visual Studio 2013\Projects\Project4\Project4\Project4.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:14.92
