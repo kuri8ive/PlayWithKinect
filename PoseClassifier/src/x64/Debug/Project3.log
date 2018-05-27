@@ -1,0 +1,20 @@
+﻿2017/05/24 13:32:41 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "H:\WinFiles\Documents\Visual Studio 2013\Projects\Project3\Project3\Project3.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\inc" /I"\\pentas-fs\home\ugrad\15\s1511366\WinFiles\Documents\opencv\build\include" /I"C:\Program Files\Microsoft SDKs\Kinect\v1.8\inc" /Zi /nologo /W3 /WX- /sdl /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt "\\pentas-fs\home\ugrad\15\s1511366\WinFiles\Documents\Visual Studio 2013\Projects\Project3\Project3\KinectControlKadai3.cpp" "\\pentas-fs\home\ugrad\15\s1511366\WinFiles\Documents\Visual Studio 2013\Projects\Project3\Project3\main.cpp"
+         main.cpp
+         KinectControlKadai3.cpp
+     1>\\pentas-fs\home\ugrad\15\s1511366\WinFiles\Documents\Visual Studio 2013\Projects\Project3\Project3\KinectControlKadai3.cpp(406): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>\\pentas-fs\home\ugrad\15\s1511366\WinFiles\Documents\Visual Studio 2013\Projects\Project3\Project3\KinectControlKadai3.cpp(408): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+     1>\\pentas-fs\home\ugrad\15\s1511366\WinFiles\Documents\Visual Studio 2013\Projects\Project3\Project3\KinectControlKadai3.cpp(417): warning C4018: '>=' : signed と unsigned の数値を比較しようとしました。
+     1>\\pentas-fs\home\ugrad\15\s1511366\WinFiles\Documents\Visual Studio 2013\Projects\Project3\Project3\KinectControlKadai3.cpp(418): warning C4018: '>=' : signed と unsigned の数値を比較しようとしました。
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"H:\WinFiles\Documents\Visual Studio 2013\Projects\Project3\x64\Debug\Project3.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\Developer Toolkit v1.8.0\Lib\amd64" /LIBPATH:H:\WinFiles\Documents\opencv\build\x64\vc12\lib /LIBPATH:"C:\Program Files\Microsoft SDKs\Kinect\v1.8\lib\amd64" opencv_core2410d.lib opencv_highgui2410d.lib opencv_imgproc2410d.lib opencv_objdetect2410d.lib Kinect10.lib FaceTrackLib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"H:\WinFiles\Documents\Visual Studio 2013\Projects\Project3\x64\Debug\Project3.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"H:\WinFiles\Documents\Visual Studio 2013\Projects\Project3\x64\Debug\Project3.lib" /MACHINE:X64 x64\Debug\KinectControlKadai3.obj
+         x64\Debug\main.obj
+         Project3.vcxproj -> H:\WinFiles\Documents\Visual Studio 2013\Projects\Project3\x64\Debug\Project3.exe
+     1>プロジェクト "H:\WinFiles\Documents\Visual Studio 2013\Projects\Project3\Project3\Project3.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:11.94
